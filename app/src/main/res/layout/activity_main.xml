@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#808080"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:src="@drawable/bassnectar"
+        android:padding="4dp"/>
+
+
+    <TextView
+        android:id="@+id/bassnectar_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="@string/bassnectar"
+        android:textSize="48sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textIsSelectable="true"
+        android:textColor="@color/colorAccent"
+        android:scaleType="fitCenter"
+        android:layout_weight="1"
+        android:padding="4dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:src="@drawable/gramatik"
+        android:layout_weight="1"
+        android:padding="4dp"/>
+
+    <TextView
+        android:id="@+id/gramatik_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="@string/gramatik"
+        android:textSize="48sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textIsSelectable="true"
+        android:textColor="@color/colorAccent"
+        android:scaleType="fitCenter"
+        android:layout_weight="1"
+        android:padding="4dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:src="@drawable/griz"
+        android:padding="2dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/griz_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="@string/griz"
+        android:textSize="48sp"
+        android:textIsSelectable="true"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:scaleType="fitCenter"
+        android:layout_weight="1"
+        android:textColor="@color/colorAccent"
+        android:padding="4dp"/>
+
+
+</LinearLayout>

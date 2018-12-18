@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Media Player</string>
+    <string name="bassnectar">Bassnectar </string>
+    <string name="gramatik"> Gramatik </string>
+    <string name="griz"> GRiZ </string>
+    <string name="nowplaying"> NowPlaying </string>
+    <string name="song_name"> Song Name </string>
+
+    <string name="bassnectar_playlist">Bassnectar Playlist</string>
+    <string name="now_playing_label">Now Playing </string>
+    <string name="main_activity_label"> Main Activity </string>
+
+</resources>
+
+
+
+
